@@ -1,0 +1,8 @@
+*
+!/.gitignore
+!/reports/
+!/reports/*.md
+!/status/
+!/status/*.json
+!/config/
+!/config/runtime.sanitized.yaml

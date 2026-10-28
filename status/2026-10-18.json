@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T16:28:39+08:00",
+  "report_files": {
+    "reports/2026-10-18.md": "a0edd051462bf81fdfb6a0141a48b4f1a7aa0b2c90573e732c6bef61afcdb9ac",
+    "reports/2026-10-18-brief.md": "4c50524ee79fa4d1851bdf62d2f67c56485a486e64b3aeacb6f1ea04efa178ed"
+  },
+  "run_id": "3bd69b99f96b45a6b597136968fd8ac6",
+  "totals": {
+    "scanned_rows": 191,
+    "new_jobs": 3,
+    "recommended_jobs": 0,
+    "pending_details": 23
+  },
+  "sources": [
+    {
+      "name": "apple",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 38,
+      "error_summary": null
+    },
+    {
+      "name": "sgs",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 0,
+      "error_summary": null
+    },
+    {
+      "name": "sgs_member",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 13,
+      "error_summary": null
+    },
+    {
+      "name": "tuv_sud",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 11,
+      "error_summary": null
+    },
+    {
+      "name": "tuv_sud_member",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 0,
+      "error_summary": null
+    },
+    {
+      "name": "mars",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 26,
+      "error_summary": null
+    },
+    {
+      "name": "abb",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 0,
+      "error_summary": null
+    },
+    {
+      "name": "honeywell",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 11,
+      "error_summary": null
+    },
+    {
+      "name": "honeywell_aerospace",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 2,
+      "error_summary": null
+    },
+    {
+      "name": "siemens",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 12,
+      "error_summary": null
+    },
+    {
+      "name": "shenxian",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 78,
+      "error_summary": null
+    },
+    {
+      "name": "digicert",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "anker",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "boss",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "zhilian",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "liepin",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "manual",
+      "status": "ok",
+      "enabled": null,
+      "scheduled": true,
+      "attempted": true,
+      "scanned_rows": 0,
+      "error_summary": null
+    },
+    {
+      "name": "globalsign",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "danone",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "cargill",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "tetrapak",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "basf",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "bmw",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "schaeffler",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "zeiss",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "bosch",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "unilever",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "reckitt",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "ikea",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "nestle",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "givaudan",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "非计划运行日"
+    },
+    {
+      "name": "cummins",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "porsche",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "pepsico",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "mondelez",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "microsoft",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "starbucks",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    },
+    {
+      "name": "mova",
+      "status": "partial",
+      "enabled": null,
+      "scheduled": false,
+      "attempted": false,
+      "scanned_rows": null,
+      "error_summary": "来源未配置或未启用"
+    }
+  ],
+  "count_basis": {
+    "scanned_rows": "历史完整日报表头；来源原始扫描条数，不等同去重岗位数",
+    "new_jobs": "保留的当日首次发现记录，包括后来被过滤的记录；不还原已删除记录",
+    "recommended_jobs": "历史完整日报表头",
+    "pending_details": "历史完整日报表头；不包含待评分",
+    "missing": "未在历史日报表头找到的指标为 null；来源扫描数缺失为 null",
+    "source_state": "不晚于两份报告文件时间的最近已结束运行；启用状态仅取运行记录中的明确值",
+    "generated_at": "两份报告文件中较晚的修改时间（北京时间）"
+  }
+}

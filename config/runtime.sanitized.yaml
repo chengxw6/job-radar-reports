@@ -1,0 +1,494 @@
+{
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "name": "apple",
+      "company": "Apple",
+      "adapter": "apple",
+      "enabled": true,
+      "urls": [
+        "https://jobs.apple.com/en-us/search?location=china-CHNC&team=business-intelligence-and-analytics-OPMFG-BIA",
+        "https://jobs.apple.com/en-us/search?location=china-CHNC&search=business+analyst",
+        "https://jobs.apple.com/en-us/search?location=china-CHNC&search=product+manager"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "name": "sgs",
+      "company": "SGS",
+      "kind": "smartrecruiters",
+      "url": "https://careers.smartrecruiters.com/SGS",
+      "board": "SGS",
+      "queries": [
+        "product manager",
+        "business analyst",
+        "digital",
+        "AI",
+        "platform"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 2,
+      "enabled": true,
+      "rotate_queries": true
+    },
+    {
+      "name": "sgs_member",
+      "company": "SGS",
+      "adapter": "waiqi_company",
+      "enabled": true,
+      "target_company_id": "sgs",
+      "company_query": "SGS",
+      "frequency": "daily",
+      "detail_fetch_per_run": 2,
+      "request_budget": 1,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "tuv_sud",
+      "company": "TÜV南德",
+      "kind": "tuv",
+      "url": "https://jobs.tuvsud.com/search?locale=en_US&searchResultView=LIST",
+      "queries": [
+        "digital",
+        "product",
+        "business analyst",
+        "QMS",
+        "LIMS",
+        "MES"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 2,
+      "enabled": true,
+      "rotate_queries": true
+    },
+    {
+      "name": "tuv_sud_member",
+      "company": "TÜV南德",
+      "adapter": "waiqi_company",
+      "enabled": true,
+      "target_company_id": "tuv_sud",
+      "company_query": "南德",
+      "frequency": "daily",
+      "detail_fetch_per_run": 2,
+      "request_budget": 1,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "mars",
+      "company": "玛氏",
+      "kind": "phenom",
+      "url": "https://careers.mars.com/cn/zh/search-results",
+      "queries": [
+        "Product Manager",
+        "Business Analyst",
+        "Product Owner",
+        "Digital",
+        "产品经理",
+        "业务分析师",
+        "MES",
+        "LIMS",
+        "QMS"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 3,
+      "enabled": true,
+      "primary_queries": [
+        "Product Manager",
+        "Business Analyst"
+      ],
+      "rotate_queries": true
+    },
+    {
+      "name": "abb",
+      "company": "ABB",
+      "kind": "phenom",
+      "url": "https://careers.abb/china/zh/search-results",
+      "queries": [
+        "Product Manager",
+        "Business Analyst",
+        "Product Owner",
+        "Digital",
+        "产品经理",
+        "业务分析师",
+        "MES",
+        "LIMS",
+        "QMS"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 3,
+      "enabled": true,
+      "primary_queries": [
+        "Product Manager",
+        "Business Analyst"
+      ],
+      "rotate_queries": true
+    },
+    {
+      "name": "honeywell",
+      "company": "Honeywell Technologies",
+      "kind": "oracle",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/jobs",
+      "api_origin": "https://ibqbjb.fa.ocs.oraclecloud.com",
+      "site_number": "CX_1",
+      "queries": [
+        "product manager",
+        "business analyst",
+        "digital",
+        "AI",
+        "platform"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 2,
+      "enabled": true,
+      "rotate_queries": true
+    },
+    {
+      "name": "honeywell_aerospace",
+      "company": "Honeywell Aerospace",
+      "kind": "oracle",
+      "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/jobs",
+      "api_origin": "https://icfcjb.fa.ocs.oraclecloud.com",
+      "site_number": "CX_4001",
+      "queries": [
+        "product manager",
+        "business analyst",
+        "digital",
+        "AI",
+        "platform"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 2,
+      "enabled": true,
+      "rotate_queries": true
+    },
+    {
+      "name": "siemens",
+      "company": "西门子",
+      "kind": "avature",
+      "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42386=%5B812054%5D&42386_format=17546&folderRecordsPerPage=100&listFilterMode=1",
+      "queries": [
+        "product manager",
+        "business analyst",
+        "digital",
+        "AI",
+        "platform"
+      ],
+      "adapter": "official",
+      "frequency": "daily",
+      "detail_fetch_per_run": 3,
+      "list_pages_per_run": 2,
+      "enabled": true,
+      "rotate_queries": true
+    },
+    {
+      "name": "shenxian",
+      "enabled": true,
+      "adapter": "waiqi",
+      "queries": [
+        "数字化产品经理",
+        "IT产品经理",
+        "AI产品经理",
+        "数据产品经理",
+        "平台产品经理",
+        "Digital Product Manager",
+        "IT Product Manager",
+        "AI Product Manager",
+        "Product Owner",
+        "业务分析师",
+        "Business Analyst",
+        "食品安全产品经理",
+        "质量系统产品经理",
+        "追溯产品经理",
+        "MES产品经理",
+        "LIMS产品经理",
+        "数字信任产品经理"
+      ],
+      "pages_per_query": 1,
+      "request_budget": 8,
+      "detail_fetch_per_run": 8,
+      "rotate_queries": true,
+      "status_check_per_run": 2,
+      "required": true
+    },
+    {
+      "name": "digicert",
+      "company": "DigiCert",
+      "adapter": "greenhouse",
+      "board": "digicert",
+      "enabled": true,
+      "frequency": "weekly",
+      "weekday": 0
+    },
+    {
+      "name": "anker",
+      "company": "安克创新",
+      "adapter": "html",
+      "enabled": false,
+      "url": "https://career.anker.com.cn/social/recruitment"
+    },
+    {
+      "name": "boss",
+      "enabled": false
+    },
+    {
+      "name": "zhilian",
+      "adapter": "zhilian",
+      "enabled": true,
+      "desired_frequency": "daily",
+      "page_loads_per_day": 60
+    },
+    {
+      "name": "liepin",
+      "enabled": false,
+      "desired_frequency": "daily"
+    },
+    {
+      "name": "manual",
+      "adapter": "inbox",
+      "enabled": true
+    },
+    {
+      "name": "globalsign",
+      "company": "GlobalSign",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 0,
+      "target_company_id": "globalsign",
+      "company_query": "GlobalSign",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "danone",
+      "company": "达能",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 0,
+      "target_company_id": "danone",
+      "company_query": "达能",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "cargill",
+      "company": "嘉吉",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 1,
+      "target_company_id": "cargill",
+      "company_query": "嘉吉",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "tetrapak",
+      "company": "利乐",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 1,
+      "target_company_id": "tetrapak",
+      "company_query": "利乐",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "basf",
+      "company": "巴斯夫",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 1,
+      "target_company_id": "basf",
+      "company_query": "巴斯夫",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "bmw",
+      "company": "宝马",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 2,
+      "target_company_id": "bmw",
+      "company_query": "宝马",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "schaeffler",
+      "company": "舍弗勒",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 2,
+      "target_company_id": "schaeffler",
+      "company_query": "舍弗勒",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "zeiss",
+      "company": "蔡司",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 2,
+      "target_company_id": "zeiss",
+      "company_query": "蔡司",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "bosch",
+      "company": "博世",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 3,
+      "target_company_id": "bosch",
+      "company_query": "博世",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "unilever",
+      "company": "联合利华",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 3,
+      "target_company_id": "unilever",
+      "company_query": "联合利华",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "reckitt",
+      "company": "利洁时",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 3,
+      "target_company_id": "reckitt",
+      "company_query": "利洁时",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "ikea",
+      "company": "宜家中国",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 4,
+      "target_company_id": "ikea",
+      "company_query": "宜家",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "nestle",
+      "company": "雀巢",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 4,
+      "target_company_id": "nestle",
+      "company_query": "雀巢",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "givaudan",
+      "company": "奇华顿",
+      "enabled": true,
+      "adapter": "waiqi_company",
+      "frequency": "weekly",
+      "weekday": 4,
+      "target_company_id": "givaudan",
+      "company_query": "奇华顿",
+      "request_budget": 1,
+      "detail_fetch_per_run": 2,
+      "status_check_per_run": 2
+    },
+    {
+      "name": "cummins",
+      "company": "康明斯",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "porsche",
+      "company": "保时捷",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "pepsico",
+      "company": "百事",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "mondelez",
+      "company": "亿滋",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "microsoft",
+      "company": "微软STCA",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "starbucks",
+      "company": "星巴克中国",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    },
+    {
+      "name": "mova",
+      "company": "MOVA",
+      "enabled": false,
+      "adapter": "official",
+      "frequency": "manual"
+    }
+  ]
+}
